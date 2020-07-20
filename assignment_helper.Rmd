@@ -1,0 +1,47 @@
+---
+title: "YOUR TITLE HERE"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, dpi = 300)
+```
+
+```{r}
+library(tidyverse)
+library(janitor)
+```
+
+```{r}
+orig_ui_admissions = read_csv("ui_admissions_2020.csv")
+```
+
+```{r}
+ui_admissions = orig_ui_admissions %>% 
+  clean_names() %>% 
+  separate(financial_year, into = c("year", NA), sep = "/") %>% 
+  rowid_to_column() %>% 
+  filter(year == 2018) %>% 
+  filter(age_group == "All") %>% 
+  filter(sex != "All") %>% 
+  filter(injury_location == "All") %>% 
+  filter(injury_type != "All Diagnoses")
+```
+
+```{r}
+ui_admissions %>%
+  ggplot(aes(x = injury_type, y = number_of_admissions, fill = sex)) +
+  geom_col() + 
+  coord_flip()
+
+```
+
+```{r}
+ui_admissions %>%
+  group_by(injury_type, sex) %>% 
+  summarise(total_admis = sum(number_of_admissions)) %>% 
+  knitr::kable()
+```
+
