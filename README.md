@@ -1,6 +1,6 @@
-# Programming Assignment
+# Programming Assignment Instructions
 
-**Deadline: submit assignment by Monday August 10th 2020, 11pm BST**
+**Deadline: submit assignment by Monday August 10th 2020, 5pm BST**
 
 ### Background
 
@@ -27,13 +27,13 @@ Here is a link with more information on the variables in the dataset:
 A few points to note about the dataset:
 
 * Many of the rows contain aggregated data, due to each variable including an “All” category
-* The variable “HBR” refers to Health Board Region codes which is the variable to match if joining with the Health Boards look-up.
+* The variable “HBR” refers to Health Board Region codes which is the variable to match if joining with the Health Boards look-up
 
 ### Assignment
 
 The purpose of this assignment is to explore the injures datasets and answer the questions below.  To answer the questions you must use the datasets provided.  The R code used in all aspects of loading, processing, analysis and reporting must be visible in your final submission.  You are encouraged to include tables and figures to illustrate your report.  You can use any R packages of your choosing to create this report; you are not restricted to those discussed in the course.
 
-To help you get started we have included an example of a basic script which shows code for reading in the data plus some basic cleaning, plotting, and a table code too.  Please feel free to write your own code if you prefer, or to change and build on the provided starting point.  All files related to the assignment, including the R Markdown file (`assignment_helper.Rmd`) and the example output from this file (`assignment_helper.pdf`) can be accesed [here](https://github.com/lisanorman7/hds_assignment).  
+To help you get started we have included an example of a basic script which shows code for reading in the data plus some basic cleaning, plotting, and a table too.  Please feel free to write your own code if you prefer, or to change and build on the provided starting point.  All files related to the assignment, including the R Markdown file (`assignment_helper.Rmd`) and the example output from this file (`assignment_helper.pdf`) can be accesed [here](https://github.com/lisanorman7/hds_assignment).  
 
 Alternatively, right click on the link below and click **Save link as...** to download the example R Markdown file directly to your own computer:
 
@@ -48,17 +48,17 @@ In your report, you must explore the following questions:
 
 Your report should be written as if it were to be read by government advisor who might be responsible for producing policies or guidance to help cut down on the number of injuries.  You only need to provide the evidence, you do not need to include recommendations or guidance on this.
 
-We are not looking for one specific analysis for 1. and 2.  As you’re working with the data, feel free to make decisions on whether you want to focus on a specific demographic or location(s) if that makes your message clearer and analysis more sound. 
+We are not looking for one specific analysis.  As you work with the data, feel free to make decisions on whether you want to focus on a specific demographic or location(s) if that makes your message clearer and analysis more sound. 
 
 ### Requirements
 
 To carry out this assignment, you will need:
 
-* access to RStudio – this is where you will carry out your analysis and produce your report in R Markdown.
+* access to **RStudio** - this is where you will carry out your analysis and produce your report in R Markdown.
 * to make sure the following packages are installed: 
     + **rmarkdown** and **knitr** – for compiling the R Markdown document
-    + **tidyverse** – for access to data wrangling and plotting functions you have learned in this course
-    + Optional: **janitor** for cleaning up the variable names as they’re read in from the CSV file.
+    + **tidyverse** - for access to data wrangling and plotting functions you have learned in this course
+    + Optional: **janitor** - for cleaning up the variable names as they are read in from the CSV file
     
 If you have followed the course material you should already have most of these set up and ready to go.
 
@@ -68,10 +68,10 @@ You are required to submit a single Word or PDF document as your report. This do
 
 Your report must include the following sections:
 
-* **Title**: should be informative and about the analysis in the report
-* **Overview**: located directly below the title, should include a brief summary of your analysis
-* **Data Processing**: should include descriptive text and code to show how the dataset was loaded into R and processed.  All processing must happen inside the document, starting with the raw CSV file. You must not edit the CSV directly/using Excel or similar. 
-* **Results**: this is where you present your findings
+* **Title**: should be informative and about the analysis in the report.
+* **Overview**: located directly below the title, should include a brief summary of your analysis.
+* **Data Processing**: should include descriptive text and code to show how the dataset was loaded into R and processed.  All processing must happen inside the document, starting with the raw CSV file. You must not edit the CSV directly using Excel or similar. 
+* **Results**: this is where you present your findings.
 
 Other sections are allowed but not required.
 
@@ -86,8 +86,8 @@ When you come to writing reports on your own data, you will often choose not to 
 
 One week before the submission deadline, a link to Atlas Pebblepad and further submission instructions will appear here:
 
-* [Link to upload your Word or PDF report to Atlas Pebblepad]
-* [Link to further submission instructions]
+* [*Link to upload your Word or PDF report to Atlas Pebblepad*]
+* [*Link to further submission instructions*]
 
 ### Help
 
