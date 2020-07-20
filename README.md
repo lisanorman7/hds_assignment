@@ -10,11 +10,17 @@ In this project you will be exploring the **Unintentional Injuries** datasets (a
 
 ### Data
 
-The data is in CSV format and can be downloaded from the following link:
+Three data files are provided for your analysis: 
 
-* [GitHub link]
+* `ui_admissions_2020.csv`
+* `ui_deaths_2020.csv`
+* `hb_lookup.csv`  
 
-Here is the link with more information on the variables in the dataset:
+These are in CSV format and can be downloaded from the following link:
+
+* https://github.com/lisanorman7/hds_assignment
+
+Here is a link with more information on the variables in the dataset:
 
 * https://www.opendata.nhs.scot/dataset/unintentional-injuries
 
@@ -27,9 +33,11 @@ A few points to note about the dataset:
 
 The purpose of this assignment is to explore the injures datasets and answer the questions below.  To answer the questions you must use the datasets provided.  The R code used in all aspects of loading, processing, analysis and reporting must be visible in your final submission.  You are encouraged to include tables and figures to illustrate your report.  You can use any R packages of your choosing to create this report; you are not restricted to those discussed in the course.
 
-To help you get started we have included an example of a basic script which shows code for reading in the data plus some basic cleaning, plotting, and a table code too.  Please feel free to write your own code if you prefer, or to change and build on the provided starting point.  Click on the link below to download the example R Markdown file:
+To help you get started we have included an example of a basic script which shows code for reading in the data plus some basic cleaning, plotting, and a table code too.  Please feel free to write your own code if you prefer, or to change and build on the provided starting point.  All files related to the assignment, including the R Markdown file (`assignment_helper.Rmd`) and the example output from this file (`assignment_helper.pdf`) can be accesed [here](https://github.com/lisanorman7/hds_assignment).  
 
-* [GitHub link]
+Alternatively, right click on the link below and click **Save link as...** to download the example R Markdown file directly to your own computer:
+
+* [assignment_helper.Rmd](https://raw.githubusercontent.com/lisanorman7/hds_assignment/master/assignment_helper.Rmd)
 
 ### Report Questions
 
@@ -83,7 +91,7 @@ One week before the submission deadline, a link to Atlas Pebblepad and further s
 
 ### Help
 
-If you have any issues or questions relating to the assignment, please post on the **Questions about Assessments** discussion board.
+If you have any issues or questions relating to the assignment, please post on the **Questions about Assessments** discussion board on the course website in Learn.
 
 ### Marking Criteria
 
@@ -93,7 +101,7 @@ If you have any issues or questions relating to the assignment, please post on t
 
 [20%] **Intellectual contribution**: Demonstrates understanding of R and R Markdown, uses initiative through intellectual contribution and added value
 
-[15%] **Wrangling**: Produces effective code to deal with data wrangling and tidying, e.g., dplyr, tidyr, clarity of process documentation.
+[15%] **Wrangling**: Produces effective code to deal with data wrangling and tidying, e.g., dplyr, tidyr, clarity of process documentation
 
 [15%] **Plotting**: Produces effective code to create plots, e.g., ggplot2, clarity of presented information
 
