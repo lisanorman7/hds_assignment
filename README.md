@@ -84,10 +84,16 @@ When you come to writing reports on your own data, you will often choose not to 
 
 ### Submission
 
-One week before the submission deadline, a link to Atlas Pebblepad and further submission instructions will appear here:
+Below are instructions concerning the submission of your programming assignment to ATLAS/PebblePad along with some further help videos  for finding your way around ATLAS.
 
-* [*Link to upload your Word or PDF report to Atlas Pebblepad*]
-* [*Link to further submission instructions*]
+* Your submission should be anonymous. Please include your **exam number** at the start of the Title box when asked for a **Title** after uploading your report in ATLAS.
+* Click on the link [**here**](https://www.learn.ed.ac.uk/webapps/osc-BasicLTI-BB5d1b15b77a8ac/tool.jsp?course_id=_77799_1&content_id=_5138387_1) to upload and submit your Word or PDF report to ATLAS.  Alternatively, you will find the same link at the top of the Programming Assignment page in Learn.
+
+Help videos for finding your way around ATLAS/PebblePad:
+
+* For information on how to submit you document and how to change a document already submitted, watch the following video: ]**How to Submit Your Report**](https://media.ed.ac.uk/media/1_h4nmj14h)
+* Once your report has been marked and feedback released, watch the following video for how to access your feedback: [**How to Access Feedback**](https://media.ed.ac.uk/media/1_littohak)
+
 
 ### Help
 
