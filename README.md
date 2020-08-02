@@ -91,7 +91,7 @@ Below are instructions concerning the submission of your programming assignment 
 
 Help videos for finding your way around ATLAS/PebblePad:
 
-* For information on how to submit you document and how to change a document already submitted, watch the following video: ]**How to Submit Your Report**](https://media.ed.ac.uk/media/1_h4nmj14h)
+* For information on how to submit you document and how to change a document already submitted, watch the following video: [**How to Submit Your Report**](https://media.ed.ac.uk/media/1_h4nmj14h)
 * Once your report has been marked and feedback released, watch the following video for how to access your feedback: [**How to Access Feedback**](https://media.ed.ac.uk/media/1_littohak)
 
 
