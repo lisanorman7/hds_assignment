@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Programming Assignment Instructions
 
 **Deadline: submit assignment by Monday August 10th 2020, 5pm BST**
@@ -77,7 +82,7 @@ Other sections are allowed but not required.
 
 In addition, you must ensure the following:
 
-* **Figures**: there should be at least one plot and one table in your report and a maximum of 3 figures (one figure is enough and could include multiple plots)
+* **Figures**: there should be at least one plot and one table in your report and a maximum of 3 figures (plot + table = 2 figures). The use of multiple plots in one figure is permitted (e.g. faceted/related plots).
 * **Code**: All R code must be shown (`echo = TRUE` ensures this and is set as default) 
 
 When you come to writing reports on your own data, you will often choose not to show your code but just the final text and figures. For the purpose of this assessment all code is required, and it needs to appear in your Knitted report, not submitted separately.
